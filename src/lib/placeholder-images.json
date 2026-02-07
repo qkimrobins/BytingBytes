@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "login-illustration",
+      "description": "Abstract shapes and graphs representing startup growth",
+      "imageUrl": "https://images.unsplash.com/photo-1617518016627-d73dd26e8ab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHN0YXJ0dXB8ZW58MHx8fHwxNzcwNDg4Nzc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract startup"
+    }
+  ]
+}
