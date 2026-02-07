@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Startup Execution System
 
 This is a full-stack web application designed to help early-stage startups manage their execution, planning, and decision-making processes.
@@ -119,6 +118,5 @@ git remote add origin <your-github-repository-url>
 git push -u origin main
 ```
 =======
-# Work Principle 
+# Work Principle
 This site works only on hosting and the AI feature works by the user's API .Therefore before using it you will have to donwlaod and host the file locally on your device.
->>>>>>> e08b2d006ff7d44446acf7022c507c4620c46aae
