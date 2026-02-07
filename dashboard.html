@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StartupOps – Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        /* Decorative curves */
+        .curve {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.35;
+        }
+
+        .curve.one {
+            top: -150px;
+            left: -200px;
+        }
+
+        .curve.two {
+            bottom: -200px;
+            left: 100px;
+            background: linear-gradient(135deg, #cc2b5e, #753a88);
+        }
+
+        .curve.three {
+            top: 100px;
+            right: -200px;
+            background: linear-gradient(135deg, #ee9ca7, #ffdde1);
+        }
+
+        /* Layout */
+        .container {
+            position: relative;
+            z-index: 2;
+            width: 90%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        /* Left content */
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .hero span {
+            color: #6dd5ed;
+        }
+
+        .hero p.tagline {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #e0f7ff;
+        }
+
+        .hero p.quote {
+            max-width: 480px;
+            font-size: 1rem;
+            line-height: 1.7;
+            opacity: 0.9;
+        }
+
+        /* Login card */
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+        }
+
+        .card h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .input-group {
+            margin-bottom: 18px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 14px;
+            border: none;
+            outline: none;
+            font-size: 0.95rem;
+            background: rgba(255, 255, 255, 0.85);
+        }
+
+        .input-group input:focus {
+            box-shadow: 0 0 0 3px rgba(109, 213, 237, 0.4);
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .actions a {
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: #e0f7ff;
+            transition: opacity 0.3s;
+        }
+
+        .actions a:hover {
+            opacity: 0.7;
+        }
+
+        button {
+            margin-top: 25px;
+            width: 100%;
+            padding: 14px;
+            border-radius: 16px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            color: #0f2027;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        }
+
+        .signup {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        .signup a {
+            color: #6dd5ed;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero p.quote {
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="curve one"></div>
+    <div class="curve two"></div>
+    <div class="curve three"></div>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Welcome to <span>StartupOps</span></h1>
+            <p class="tagline">Build faster. Scale smarter. Operate with clarity.</p>
+            <p class="quote">
+                “Great startups aren’t built overnight — they are engineered every day
+                with vision, discipline, and courage.”
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Login</h2>
+
+            <div class="input-group">
+                <input type="text" placeholder="Username" />
+            </div>
+
+            <div class="input-group">
+                <input type="password" placeholder="Password" />
+            </div>
+
+            <div class="actions">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button>Login</button>
+
+            <div class="signup">
+                Don’t have an account? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
