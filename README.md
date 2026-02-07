@@ -1,5 +1,2 @@
-# Firebase Studio
-
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+# Work Principle 
+This site works only on hosting and the AI feature works by the user's API .Therefore before using it you will have to donwlaod and host the file locally on your device.
