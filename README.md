@@ -28,7 +28,7 @@ This repository includes both the **frontend UI** and backend **API server**, al
 | **Configs & Tooling** | Nix, Prisma, Tailwind, PostCSS |
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 BytingBytes/
 ├── src/
@@ -46,7 +46,7 @@ BytingBytes/
 └── ...
 
 
-##  How It Works
+## How It Works
 
 ###  Frontend (Next.js + Tailwind CSS)
 The frontend is built using **Next.js App Router** and styled with **Tailwind CSS**:
@@ -68,7 +68,7 @@ The backend handles all core business logic and data flow:
 >JWT tokens are sent from the frontend in request headers to access protected routes.
 
 
-##  Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ###  Prerequisites
 Make sure you have:
@@ -77,10 +77,9 @@ Make sure you have:
 - Git
 - VS Code (recommended)
 
-###  1. Clone the Repository
-
-
-```bash
+```
+1. Clone the Repository
+bash
 git clone https://github.com/qkimrobins/BytingBytes.git
 cd BytingBytes
 
@@ -109,7 +108,7 @@ Frontend: Vercel ```
 ✅Backend: Render / any Node hosting service
 Both platforms support GitHub CI/CD and environment variables.
 
-💡 Future Enhancements
+## Future Enhancements
 Real-time team collaboration
 Startup analytics & insights dashboard
 Role-based access control
