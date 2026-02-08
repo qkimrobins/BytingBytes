@@ -32,7 +32,9 @@ This repository includes both the **frontend UI** and backend **API server**, al
 
 BytingBytes/
 ├── src/
+
 │   ├── app/                  ← Frontend pages + backend API routes
+
 │   │   ├── api/              ← Backend API handlers
 │   │   └── page.tsx          ← UI page
 │   ├── components/           ← Reusable UI
