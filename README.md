@@ -29,8 +29,7 @@ This repository includes both the **frontend UI** and backend **API server**, al
 
 
 ## 📁 Repository Structure
-
-BytingBytes/
+[ BytingBytes/
 ├── src/
 │   ├── app/                  ← Frontend pages + backend API routes
 │   │   ├── api/              ← Backend API handlers
@@ -44,7 +43,7 @@ BytingBytes/
 ├── icon.png
 ├── tsconfig.json            ← TypeScript setup
 └── ...
-
+]
 
 ##  How It Works
 
